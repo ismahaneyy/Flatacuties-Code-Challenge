@@ -2,9 +2,11 @@
 - we are required to create an app called Flatgram were we can vote for the cutest animal.
 
 ## Description
+
 - This is a code challenge meant to test on skills acquired in the second week of this Phase.
 
 ## Prerequisites
+
 - In order for you to use the content on this repo ensure you have the following:
 
     - A computer that runs on either of the following; (Linux, Mac OS and Windows)
