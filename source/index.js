@@ -1,9 +1,8 @@
 const div = document.getElementById("Animal-details");
-const url = "http://localhost:3000/characters"  //this is the API which is hosted inside localhost dbjson
-
+let url = "http://localhost:3000/characters"  //this is the API which is hosted inside localhost dbjson
 // this function fetches data from server
 function getAllAnimals() {
-  fetch(url)    //API
+  let post = fetch(url)   //API
     .then((res) => res.json()) //the response brings a promise then converted in json format
     .then((data) => {
       //we are looping through the array data of each Animal
