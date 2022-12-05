@@ -7,7 +7,7 @@ function getAllAnimals() {
     .then((res) => res.json()) //the response brings a promise then converted in json format
     .then((data) => {
       //we are looping through the array data of each Animal
-       data.forEach((Animal) => {
+      data.forEach((Animal) => {
         let span = document.createElement("span");
         span.textContent = Animal.name;
         span.addEventListener("click", (e) => {
