@@ -92,7 +92,7 @@ GET /characters/:1
      "votes": 0
 
    },
- - There is the source folder which has index.js file. This file Sees all characters names in a `div` with the id of `"Animal-details"`. I have created a `span` tag with the animals's name and add it the `div#Animal-details`
+ - There is the source folder which has index.js file. This file Sees all characters names in a `div` with the id of `"Animal-details"`. I have created a `span` tag with the animals's name and I have added it to the `div#Animal-details`
    once you have retrieved the character data from the server. You will need to
    make a GET request to the following endpoint to retrieve the character data.
  -  When the character in the `div#Animal-details` is clicked, it display the animal's details in the `div#detailinfo`. 
