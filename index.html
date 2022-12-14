@@ -19,22 +19,19 @@
         <div id="detailinfo">
           <p id="name">Animal Name</p>
           <!-- output Animal image -->
-          <h4>Agregate Votes: <span id="count-vote">Animal's Votes</span></h4>
+         
           <!--enter form details-->
+          <h4>Total votes:</h4>
+          <p id="count-vote"></p>
           <img id="img" src="/img/images.jpeg"alt="Animal Name"/>
-
-          <form id="votesf">
-            <!--to enter votes-->
-            
-            <input type="text" placeholder="Insert votes" id="votes" />
-            <!--to add votes-->
-            <input type="submit" value="Add Votes" />
-            <!--reset button to reset votes to 0-->
-            <input type="reset" id="reset-button" value="Reset Votes"/>
-          </form>
+          <button id="add-votes">Add vote</button>
+          <button id="reset-button">Reset vote</button>
         </div>
         <!--link js to html-->
-    <script  src="./source/index.js" ></script>
+
+    <script src="./source/index.js"></script>
     
 </body>
 </html>
+
+

@@ -21,29 +21,13 @@
     align-items: bottom;
   }
   /*styling input type submit button */
-  input[type="submit"], button {
+  button {
     background-color: rgb(48, 48, 78);
     color: white;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     align-items: center;
     display: flex;
-  }
-   /*styling the reset button */
-   input[type="reset"]{
-    background-color: black;
-    color: white;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-   }
-
-  /*styling the input type text */
-  input[type="text"] {
-    background-color: white;
-    font-size: 25px;
-    color: black;
-    display: flex
   }
   /*styling the image */
   #img{
