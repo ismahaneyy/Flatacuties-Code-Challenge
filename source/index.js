@@ -20,7 +20,7 @@ function getAllAnimals() {
           voteCounts.textContent = votes
           let addVotes = document.querySelector("#add-votes")
           addVotes.addEventListener("click",function(){
-            voteCounts.textContent = votes++
+          voteCounts.textContent = votes++
           })
         });
         div.appendChild(span);
