@@ -1,5 +1,5 @@
 # Flatacuties-Code-Challenge
-- We are required to create an app called Flatgram were we can vote for the cutest animal.
+- We are required to create an app called Flatcuties were we can vote for the cutest animal.
 
 ## Description
 
@@ -76,7 +76,7 @@
 
      "image": "https://thumbs.gfycat.com/FatalInnocentAmericanshorthair-max-1mb.gif",
 
-     "votes": 0   }, ….]
+     "votes": 0   }, ….
 - Click on an animal’s name to see its details i.e image and number of votes. Note, you should only be displaying  the details of one animal at a time. You can either use the character information from your first request or make a new request to this endpoint to get the character's details 
 GET /characters/:1
 
@@ -107,4 +107,4 @@ Ismahan Abdirizak
 
 ## License
 MIT
-Copyright (c) 2022 Ismahan Adirizak
+Copyright (c) 2022 Ismahan Abdirizak
